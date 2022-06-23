@@ -24,17 +24,15 @@ function blinkImg() {
     }
 }
 
-let gambarGerak = setInterval(blinkImg, 100);
+var gambarGerak = setInterval(blinkImg, 100);
 
 function batu() {
-    gambarGerak;
     let gambarP1 = document.getElementById("player1");
     gambarP1.src = "batu.png";
     setTimeout(() => { botImg() }, 1000);
 }
 
 function kertas() {
-    gambarGerak;
     let gambarP1 = document.getElementById("player1");
     gambarP1.src = "kertas.png";
     setTimeout(() => { botImg() }, 1000);
@@ -42,7 +40,6 @@ function kertas() {
 }
 
 function gunting() {
-    gambarGerak;
     let gambarP1 = document.getElementById("player1");
     gambarP1.src = "gunting.png";
     setTimeout(() => { botImg() }, 1000);

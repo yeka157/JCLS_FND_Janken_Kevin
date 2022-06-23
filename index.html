@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCLS_FND_Janken_Kevin</title>
+    <style>
+        img {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Janken</h1>
+        <div>
+            <img src="batu.png" alt="batu.png">
+            <img src="gunting.png" alt="gunting.png">
+            <img src="kertas.png" alt="kertas.png">
+        </div>
+        <button type="button" onclick="gunting()">Gunting</button>
+        <button type="button" onclick="batu()">Batu</button>
+        <button type="button" onclick="kertas()">Kertas</button>
+        <div>
+            <h3>Player</h3>
+            <img src="gunting.png" id="player1">
+        </div>
+        <img src="versus.png" alt="versus.png">
+        <h3>PC</h3>
+        <img src="kertas.png" id="npc" style="margin-bottom: 20px;">
+        <div>
+            <h2 id="winner"></h2>
+            <h3 id="result"></h3>
+        </div>
+    </center>
+    <script src="index.js"></script>
+</body>
+
+</html>
